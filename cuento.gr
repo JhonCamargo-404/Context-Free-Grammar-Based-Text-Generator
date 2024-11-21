@@ -1,0 +1,65 @@
+STORY         -> INTRO PARTE1 PARTE2 PARTE3 PARTE4 PARTE5 PARTE6 PARTE7 PARTE8 FINAL
+
+# Introducción
+INTRO         -> CONTEXTO PERSONAJES ESCENARIO AMBIENTACION
+CONTEXTO      -> "En un mundo no muy diferente al nuestro," | "Hace mucho tiempo, en un rincón olvidado," | "En una tierra donde la magia aún respiraba," | "En una época de leyendas y maravillas," | "Bajo un cielo lleno de constelaciones desconocidas,"
+PERSONAJES    -> "un joven aprendiz de alquimista," COMPANIA | "un espíritu del bosque atrapado en un cuerpo mortal," COMPANIA | "una princesa con un don olvidado," COMPANIA | "un mercenario con un pasado misterioso," COMPANIA
+COMPANIA      -> "acompañado por un zorro de fuego," | "junto a una figura envuelta en sombras," | "viajando con un pájaro mecánico llamado Kuro," | "seguido por un cuervo que susurraba secretos." | "en compañía de una anciana que guardaba más de lo que decía."
+ESCENARIO     -> "habitaban en un castillo que flotaba sobre un lago de cristal." | "vivían en un bosque donde las estrellas brillaban de día." | "se encontraban en una cueva tallada en el corazón de una montaña." | "vivían en una aldea rodeada de niebla, donde nadie recordaba su origen." | "exploraban ruinas antiguas ocultas en un valle prohibido."
+AMBIENTACION  -> "El lugar parecía tranquilo, pero ocultaba secretos que pocos se atrevían a explorar." | "Todo allí estaba envuelto en un aire de magia antigua." | "La calma del entorno era engañosa, pues algo oscuro acechaba en las sombras." | "Cada rincón del lugar parecía contar una historia olvidada."
+
+# Primera Parte
+PARTE1        -> "Todo comenzó cuando," EVENTO1 "."
+EVENTO1       -> "un extraño objeto cayó del cielo, rompiendo la tranquilidad" | "una tormenta trajo consigo una melodía inquietante que resonó en todo el pueblo" | "encontraron un mapa dibujado en un pergamino con símbolos desconocidos" | "una anciana apareció con una advertencia sobre el futuro" | "un misterioso viajero dejó caer un amuleto brillante antes de desaparecer"
+DESCRIPCION1  -> "El objeto parecía contener luz y sombras, pulsando al ritmo de un corazón desconocido." | "La tormenta arrastró hojas que formaron un patrón en el suelo, como una guía." | "El pergamino parecía vivo, cambiando sus símbolos cuando era observado." | "La anciana hablaba en susurros, como si temiera que alguien más la escuchara." | "El amuleto brillaba con un resplandor cálido que despertaba recuerdos olvidados."
+EVENTO1_SEC   -> "Al mismo tiempo," "el cielo cambió de color, teñido de tonos púrpuras y dorados." | "un viento helado recorrió el lugar, como si trajera consigo un mensaje de advertencia." | "un eco distante resonó, repitiendo una palabra que nadie pudo entender." | "los animales del bosque comenzaron a huir en una dirección desconocida." | "las sombras parecían alargarse y moverse por sí solas."
+
+# Segunda Parte
+PARTE2        -> "Guiados por el destino," SUBEVENTO2 "."
+SUBEVENTO2    -> "siguieron el mapa hasta un claro donde los árboles parecían respirar" | "entraron en una biblioteca oculta bajo las raíces de un árbol gigante" | "decidieron buscar respuestas en un lago que reflejaba un cielo distinto al real" | "encontraron un camino oculto que llevaba a una torre perdida en el bosque" | "siguieron las huellas de un ser desconocido que aparecieron tras la tormenta"
+DIALOGO2      -> PERSONAJES "susurraron," '"' FRASE2 '".'
+FRASE2        -> "Esto es más grande de lo que imaginábamos." | "Cada paso nos acerca más al desconocido." | "Hay algo en este lugar que nos observa." | "No podemos retroceder ahora, aunque el peligro sea real." | "Este mapa parece guiarnos a algo que no deberíamos encontrar."
+DESCRIPCION2  -> "El claro estaba envuelto en un silencio profundo, roto solo por el crujir de las ramas bajo sus pies." | "La biblioteca era un lugar vivo, con libros que parecían susurrar entre sí." | "El lago emitía una luz tenue que hacía que las sombras danzaran alrededor." | "La torre tenía ventanas que reflejaban recuerdos olvidados en lugar del paisaje exterior." | "El camino estaba cubierto de flores que parecían susurrar con el viento."
+
+# Tercera Parte
+PARTE3        -> "En su travesía," EVENTO3 "."
+EVENTO3       -> "se encontraron con un dragón que custodiaba los secretos del tiempo" | "cruzaron un puente de cristal que parecía extenderse hasta el infinito" | "descubrieron una puerta en medio del aire, suspendida sin apoyo visible" | "un mercado lleno de criaturas mágicas los atrajo con sus luces y sonidos" | "una cascada cuyas aguas susurraban canciones antiguas los detuvo"
+DESCRIPCION3  -> "El dragón los observó con ojos que contenían siglos de historias." | "Cada paso en el puente emitía un eco que resonaba en sus corazones." | "La puerta brillaba con un aura que parecía pulsar al ritmo de sus propias emociones." | "El mercado estaba lleno de risas, pero había algo extraño en los rostros de los comerciantes." | "La cascada emitía una canción que parecía hablar directamente a sus almas."
+ACCION3       -> "El dragón les planteó un enigma sobre la naturaleza del tiempo." | "El puente comenzó a desaparecer detrás de ellos, obligándolos a avanzar." | "La puerta emitió un susurro que los invitaba a cruzarla, pero también los llenó de temor." | "Una criatura en el mercado les ofreció un objeto mágico a cambio de un recuerdo importante." | "La cascada mostró reflejos de lo que parecía ser otro mundo, pero solo por un instante."
+
+# Cuarta Parte
+PARTE4        -> "Sin embargo," GIRO4 "."
+GIRO4         -> "la calma del lugar se rompió cuando una sombra comenzó a seguirlos" | "descubrieron que el objeto que llevaban tenía un propósito mucho más oscuro" | "la torre comenzó a derrumbarse, revelando un portal oculto bajo sus cimientos" | "la figura misteriosa que los acompañaba reveló su verdadero rostro" | "un eco del pasado comenzó a resonar, trayendo consigo imágenes olvidadas"
+DIALOGO4      -> COMPANIA "advirtió," '"' FRASE4 '".'
+FRASE4        -> "No todo es lo que parece, debemos ser cautelosos." | "Cada elección que hagamos aquí cambiará nuestro destino." | "Algo está despertando, y no sabemos si será un aliado o un enemigo." | "El portal no solo abre caminos, también despierta peligros." | "Esta sombra... parece conocer cada uno de nuestros pasos."
+DESCRIPCION4  -> "La sombra se movía entre las ramas como si fuera parte del bosque mismo." | "El objeto comenzó a vibrar, su luz alternando entre calidez y frialdad." | "El portal emitía un sonido bajo, como un canto que parecía provenir del centro de la tierra." | "La figura misteriosa habló por primera vez, su voz profunda y cargada de poder." | "Las imágenes del pasado eran dolorosas, pero también contenían respuestas."
+
+# Quinta Parte
+PARTE5        -> "Mientras tanto," EVENTO5 "."
+EVENTO5       -> "un sonido misterioso comenzó a resonar desde lo profundo del bosque" | "descubrieron una inscripción que parecía cambiar con cada mirada" | "el cielo comenzó a llenarse de luces danzantes, como si el universo estuviera observándolos" | "un guardián apareció para probar su valor antes de dejarlos continuar" | "un río apareció de la nada, dividiendo su camino en dos opciones"
+DESCRIPCION5  -> "El sonido parecía venir de todas partes y de ninguna, como un eco del pasado." | "La inscripción brillaba con un resplandor dorado que iluminaba la oscuridad del lugar." | "Las luces en el cielo parecían formar patrones que contaban historias olvidadas." | "El guardián, una criatura mitad humano, mitad bestia, los miró con una mezcla de desafío y curiosidad." | "El río fluía con una velocidad inusual, reflejando imágenes de mundos desconocidos."
+DIALOGO5      -> PERSONAJES "reflexionaron," '"' FRASE5 '".'
+FRASE5        -> "Este camino no será fácil, pero debemos continuar." | "¿Es esto una advertencia o una invitación?" | "Cada decisión aquí parece ser una prueba más de nuestro propósito." | "Lo que enfrentamos ahora definirá lo que somos." | "Incluso el río parece guardar secretos que no alcanzamos a comprender."
+
+# Sexta Parte
+PARTE6        -> "Finalmente," EVENTO6 "."
+EVENTO6       -> "llegaron al corazón del bosque, donde el tiempo parecía detenerse" | "se enfrentaron a un laberinto de espejos que reflejaban sus temores más profundos" | "descubrieron un altar antiguo que parecía pulsar con vida propia" | "una tormenta mágica los rodeó, obligándolos a buscar refugio" | "el dragón volvió, pero esta vez con una revelación inesperada"
+DESCRIPCION6  -> "El corazón del bosque estaba lleno de árboles gigantes cuyas hojas brillaban con una luz propia." | "Los espejos no solo reflejaban imágenes, sino también recuerdos y emociones." | "El altar parecía respirar, y cada latido resonaba en el aire como un tambor lejano." | "La tormenta era un espectáculo de colores y sonidos, hermosa y aterradora al mismo tiempo." | "El dragón habló con una voz cargada de sabiduría, revelando verdades que desafiaban su comprensión."
+ACCION6       -> "Enfrentaron sus temores con valentía y determinación." | "Trazaron un camino a través del laberinto usando su intuición y confianza mutua." | "Ofrecieron algo valioso al altar, esperando que les permitiera avanzar." | "Resistieron la tormenta juntos, utilizando todo lo que habían aprendido." | "Escucharon atentamente al dragón, sabiendo que sus palabras contenían la clave para su viaje."
+
+# Séptima Parte
+PARTE7        -> "En el clímax de su aventura," CLIMAX "."
+CLIMAX        -> "el grupo se enfrentó a una sombra que parecía conocer todos sus secretos" | "descubrieron que uno de ellos guardaba un secreto crucial para la misión" | "un portal se abrió, llevándolos a un mundo completamente diferente" | "el guardián reveló que toda su travesía había sido una prueba" | "la verdadera naturaleza del objeto que llevaban fue finalmente revelada"
+DESCRIPCION7  -> "La sombra no era solo un enemigo, sino una parte de ellos mismos que debían confrontar." | "El secreto revelado cambió la dinámica del grupo, pero también les dio una nueva fuerza." | "El portal brillaba con colores imposibles, invitándolos a cruzar, pero con un costo desconocido." | "El guardián sonrió con un aire de satisfacción, sabiendo que habían pasado la prueba." | "El objeto comenzó a brillar intensamente, mostrando su verdadero propósito."
+DIALOGO7      -> PROTAGONISTA "dijo," '"' FRASE7 '".'
+FRASE7        -> "El camino no era solo para encontrar respuestas, sino para entender quiénes somos." | "Este momento definirá todo lo que somos y lo que seremos." | "Aunque el miedo es real, no dejaremos que nos detenga." | "Cada paso nos llevó hasta aquí, y no podemos rendirnos ahora." | "El verdadero desafío no está afuera, sino dentro de nosotros."
+
+# Octava Parte
+PARTE8        -> "Cuando todo terminó," DESENLACE "."
+DESENLACE     -> "el portal comenzó a cerrarse, dejando tras de sí solo un susurro en el aire" | "el bosque quedó en silencio, como agradeciendo por devolverle su equilibrio" | "el objeto se desvaneció, pero dejó una sensación de paz y propósito" | "el dragón se marchó, pero no sin dejarles una última enseñanza" | "el río volvió a su cauce, como si nada hubiera ocurrido"
+DESCRIPCION8  -> "El lugar parecía haber cambiado, pero en realidad, eran ellos quienes ya no eran los mismos." | "El silencio del bosque no era vacío, sino lleno de gratitud y paz." | "El objeto dejó un calor en sus manos, como un último adiós." | "El dragón alzó el vuelo, dejando una sombra que parecía un recuerdo eterno." | "El río fluía ahora con calma, reflejando el cielo despejado y lleno de estrellas."
+
+# Final
+FINAL         -> "Al final," RESOLUCION "."
+RESOLUCION    -> "el mundo recuperó su equilibrio, y los protagonistas entendieron su lugar en él" | "la paz volvió, aunque los misterios permanecieron esperando a otros viajeros" | "la aventura terminó, pero las lecciones perdurarían para siempre" | "la travesía cambió sus vidas, y el eco de sus acciones resonaría en la eternidad" | "el grupo se separó, pero sabían que siempre estarían conectados por esta experiencia"
+REFLEXION     -> "Aprendieron que los mayores desafíos están dentro de uno mismo." | "El viaje fue una prueba, no para encontrar respuestas, sino para descubrir su verdadero ser." | "Entendieron que el equilibrio del mundo depende de quienes se atreven a cambiarlo." | "La aventura no terminó allí; solo marcó el comienzo de algo aún más grande." | "Cada uno llevaba en su corazón la certeza de que habían hecho lo correcto."
