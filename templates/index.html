@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generador de Cuentos</title>
+    <title>Generador de Cuentos Mágicos</title>
     <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/styles.css">
 </head>
@@ -22,17 +22,7 @@
             if (data.success) {
                 document.getElementById("story-area").value = data.story;
             } else {
-                alert("Error generando cuento: " + data.error);
-            }
-        });
-
-        document.getElementById("download-btn").addEventListener("click", async () => {
-            const response = await fetch("/download");
-            const data = await response.json();
-            if (data.success) {
-                alert(data.message);
-            } else {
-                alert("Error al descargar el cuento: " + data.error);
+                alert(data.error);
             }
         });
     </script>
