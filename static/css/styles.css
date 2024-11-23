@@ -1,0 +1,73 @@
+body {
+    background-image: url('/static/images/parchment-background.jpg');
+    background-size: cover;
+    font-family: 'Bokor', cursive;
+    color: #5b3924;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 20px;
+    border: 10px solid #a67c52;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 90%; /* Ocupa el 90% del ancho */
+    max-width: 1200px;
+    height: 80%; /* Ocupa el 80% de la altura */
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #8b4513;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 20px;
+}
+
+textarea {
+    font-family: 'Bokor', cursive;
+    font-size: 1.2em;
+    color: #5b3924;
+    background: #fdf5e6;
+    border: 5px solid #a67c52;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Ocupa todo el ancho */
+    height: 60%; /* Ocupa 60% de la altura del contenedor */
+    resize: none; /* Evita que el usuario cambie el tamaño */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Centra el botón */
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Bokor', cursive;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    background: linear-gradient(45deg, #a67c52, #8b4513);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #8b4513, #a67c52);
+    transform: scale(1.1);
+}
